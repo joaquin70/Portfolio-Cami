@@ -5,7 +5,7 @@ import Yampi from "../assets/Yampi.png";
 
 const ProjectCard = ({ image, title, description }) => {
     return (
-        <div id="projects" className="max-w-md mx-auto border border-[#040207] shadow-lg rounded-lg overflow-hidden mb-8">
+        <div id="empleos" className="max-w-md mx-auto border border-[#040207] shadow-lg rounded-lg overflow-hidden mb-8">
           <img src={image} alt={title} className="w-full h-30 object-cover object-center" />
           <div className="p-4">
             <h2 className="text-2xl font-semibold mb-2 text-white">{title}</h2>

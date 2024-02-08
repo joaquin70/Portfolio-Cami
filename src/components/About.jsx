@@ -17,13 +17,12 @@ const About = () => {
             <div className="mb-1">
               <span className="text-4xl font-bold text-white">
                 <font className="text-white ml-1">Responsable</font>
-                <font className="text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-cyan-300 ml-1">Proactiva</font>
               </span>
             </div>
             <div>
               <span className="text-4xl font-bold text-gray-800">
-                <font className="text-white ml-1">Organizada</font>
-              </span>
+                <font className="text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-cyan-300 ml-1">Confianza</font>
+           </span>
             </div>
             <p className="text-lg text-gray-200 mt-4">
               Busco poder aportar todo mi potencial y a su vez incorporar nuevas habilidades.

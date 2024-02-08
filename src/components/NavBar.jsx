@@ -1,5 +1,6 @@
 import React from 'react';
-import profileImage from '../assets/Icons-2.png';
+import { FaWhatsapp } from 'react-icons/fa';
+import profileImage from '../assets/Camila.jpg';
 
 const Navbar = () => {
   return (
@@ -18,7 +19,11 @@ const Navbar = () => {
             Skills
           </a>
           <a href="#empleos" className="text-lg text-gray-100 px-32 py-1 hover:text-white transition-all duration-300">
-            Empleos
+            Jobs
+          </a>
+          {/* Botones de WhatsApp y correo electrónico */}
+          <a href="https://wa.me/3401506600" target="_blank" rel="noopener noreferrer" className="text-lg text-green-300 px-32 py-1 hover:text-green transition-all duration-300">
+            <FaWhatsapp />
           </a>
         </div>
       </div>
@@ -34,7 +39,7 @@ const Navbar = () => {
             Skills
           </a>
           <a href="#empleos" className="text-lg text-gray-100 px-6 py-1 hover:text-white transition-all duration-300">
-            Empleos
+            Jobs
           </a>
         </div>
       </div>
@@ -43,6 +48,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 

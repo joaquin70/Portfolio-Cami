@@ -3,6 +3,7 @@ import About from './components/About';
 import Navbar from './components/NavBar';
 import Skills from './components/Skills';
 import Empleos from './components/Empleos';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="relative min-h-screen">
@@ -16,6 +17,7 @@ function App() {
         <About/>
         <Skills/>  
         <Empleos/>    
+       <Footer/>
     </div>
     </div>
   );
