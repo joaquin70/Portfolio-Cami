@@ -14,8 +14,8 @@ function App() {
       <div className="relative z-10">
         <Navbar/>
         <About/>
-        <Skills/>
-    <Empleos/>    
+        <Skills/>  
+        <Empleos/>    
     </div>
     </div>
   );

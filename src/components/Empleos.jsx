@@ -1,6 +1,7 @@
 import React from 'react';
 import Ponzio from "../assets/Ponzio.png";
 import Estudio from "../assets/Estudio.jpg";
+import Yampi from "../assets/Yampi.png";
 
 const ProjectCard = ({ image, title, description }) => {
     return (
@@ -26,12 +27,17 @@ const Empleos = () => {
     description:'Recepcion de clientes,Atencion telefonica,Facturacion.Manejo de sistema SISFE Y de seguros.Redaccion de escritos administrativos y juridicos.',
     image:Estudio ,
     },
+    {
+     title:'Heladeria Y Cafeteria Yampi',
+     description:'Atencion al cliente,Manejo de caja.Tareas Varias',  
+     image:Yampi,
+    },
   
   ];
 
   return (
     <div className="container mx-auto p-8">
-      <h2 className="text-[40px] font-semibold text-transparent text-center bg-clip-text bg-gradient-to-r from-purple-200 white-100 py-2 mb-[25px] ">Mis Empleos</h2>
+      <h2 className="text-[40px] font-semibold text-transparent text-center bg-clip-text bg-gradient-to-r from-purple-200 white-100 py-2 mb-[25px]">Mis Empleos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
