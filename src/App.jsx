@@ -2,6 +2,7 @@ import React from 'react';
 import About from './components/About';
 import Navbar from './components/NavBar';
 import Skills from './components/Skills';
+import Empleos from './components/Empleos';
 function App() {
   return (
     <div className="relative min-h-screen">
@@ -14,7 +15,8 @@ function App() {
         <Navbar/>
         <About/>
         <Skills/>
-      </div>
+    <Empleos/>    
+    </div>
     </div>
   );
 }
