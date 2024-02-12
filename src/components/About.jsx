@@ -33,7 +33,7 @@ const About = () => {
               <button onClick={handleDownloadCV} className="bg-[#03001417] text-white px-4 py-2 rounded-lg border cursor-pointer font-bold">
                 Descargar CV
               </button>
-              <a href="https://www.linkedin.com/in/" className="bg-[#03001417] text-white px-4 py-2 rounded-lg border font-bold">
+              <a href="https://www.linkedin.com/in/camila-marquez-88369a290/" className="bg-[#03001417] text-white px-4 py-2 rounded-lg border font-bold">
             LinkedIn
           </a>
             </div>
